@@ -92,9 +92,14 @@ main .banner-description{
     width: 400px;
     text-align: center;
     padding: 10px;
+    font-weight: bold;
 }
 @media (max-width:700px){
     main .banner-text {
-        font-size: 1rem;
+        font-size: 1.3rem;
+        width: 90%;
+    }
+    main .banner-description{
+        font-size: 1.5rem;
     }
 }
